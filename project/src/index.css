@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mali&display=swap");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e0e0e0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #e0e0e0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.heartFav {
+  width: 5vmin;
+  height: 5vmin;
+  float: right;
+  filter: invert(51%) sepia(99%) saturate(680%) hue-rotate(126deg)
+    brightness(91%) contrast(97%);
+}
+
+.heartFav:hover {
+  filter: invert(50%) sepia(94%) saturate(934%) hue-rotate(327deg)
+    brightness(103%) contrast(90%);
+}
+
+.primary {
+  color: #03a696;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #bf665e;
+  color: white;
+  text-align: center;
+  font-size: x-small;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
+
+.linksBlack {
+  color: black;
+  text-decoration: none;
+}
+
+.padding {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.home {
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.back {
+  margin-top: 64px;
+}
+
+@media (max-width: 600px) {
+  .back {
+    padding: 50px;
+    margin-top: 56px;
+  }
+}
+
+/* proceso de pago */
+
+.backPay {
+  position: absolute;
+  top: 64px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+@media (max-width: 600px) {
+  .backPay {
+    padding: 50px;
+    margin-top: 56px;
+  }
+}
+
+/* crear/editar producto */
+
+.backProd {
+  margin-top: 64px;
+  background-color: #f1e9da;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 600px) {
+  .backProd {
+    padding: 50px;
+    margin-top: 56px;
+  }
+}
+
+/* detalle de producto */
+
+.backDetail {
+  background-color: #f1e9da;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+/* creación categoría */
+
+.backCat {
+  background-color: #f1e9da;
+  height: 100vh;
+  padding-top: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+}
+
+/* para la burbuja de cantidad de carrito */
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #c67605;
+}
+#lblCartCount {
+  font-size: 12px;
+  background: #253659;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -3px;
+  text-decoration: none;
+}

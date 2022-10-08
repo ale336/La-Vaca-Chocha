@@ -1,0 +1,32 @@
+/* login y register */
+
+.backImg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  position: absolute;
+  top: 64.03px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+@media (max-width: 600px) {
+  .backImg {
+    padding: 50px;
+    top: 56px;
+  }
+}
+
+/* para los links */
+
+.linkMenu {
+  text-decoration: none;
+  color: black;
+}
+
+.linkMenu:hover {
+  text-decoration: none;
+  color: black;
+}
